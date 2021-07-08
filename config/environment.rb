@@ -3,4 +3,4 @@ Bundler.require
 
 require_relative '../lib/student'
 
-DB = {:conn => SQLite3::Database.new("db/students.db")}
+DB = {:conn => SQLite3::Database.new("db/students.db")}  #establishes a database connection, hence the name 'environment'
